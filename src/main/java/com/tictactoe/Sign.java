@@ -11,6 +11,7 @@ public enum Sign {
         this.sign = sign;
     }
 
+    @SuppressWarnings("unused")
     public char getSign() {
         return sign;
     }
